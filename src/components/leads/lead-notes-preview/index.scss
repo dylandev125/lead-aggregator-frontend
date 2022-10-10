@@ -1,0 +1,53 @@
+.Leads {
+  display: flex;
+  flex-direction: row;
+  .leads-container {
+    flex: 1;
+  }
+}
+
+.LeadNotesPreview {
+  .endCall {
+    color: white !important;
+    background: crimson !important;
+  }
+
+  .onCall {
+    color: white !important;
+    background: #0ea432 !important;
+  }
+
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 19999;
+  height: 100vh;
+
+  .lead-profile {
+    .lead-profile-row {
+      padding: 5px;
+
+      .lead-profile-label {
+        width: 40%;
+        display: inline-flex;
+        text-align: left;
+        color: gray;
+      }
+
+      .lead-profile-value {
+        width: 60%;
+        display: inline-flex;
+        text-align: left;
+      }
+
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.onClosePreview {
+  float: right;
+  cursor: pointer;
+}

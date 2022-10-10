@@ -1,0 +1,60 @@
+.companyLeadStats {
+  width: 380px;
+  position: fixed;
+  background: white;
+  right: 0;
+  top: 80px;
+  height: 100%;
+  z-index: 3;
+
+  .company-name-header {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+
+    .company-name {
+      font-size: 24px;
+    }
+  }
+
+  .company-lead-stats-container {
+    padding: 20px;
+    text-align: left;
+    label {
+      font-weight: bold;
+    }
+  }
+
+  .averages {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .totals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    background: red;
+    text-align: center;
+
+    .total-leads {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      background: gray;
+      margin-right: 20px;
+      text-transform: uppercase;
+    }
+
+    .total-leads-converted {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      background: gray;
+      text-transform: uppercase;
+    }
+  }
+}
